@@ -517,6 +517,7 @@ body {
 
   .home_nav_section input {
     font: 900 24px "Playfair Display", serif;
+    line-height: 2em;
     width: 100%; }
 
   .home_nav_section .search_box {
@@ -608,7 +609,7 @@ body {
 
   .featured_categories .images_featured_categories {
     margin-top: -26.5%; } }
-@media (max-width: 500px) {
+@media (max-width: 531px) {
   .home_nav_section .search_box {
     width: 222px;
     padding: 0; }
