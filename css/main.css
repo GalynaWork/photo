@@ -87,6 +87,8 @@ body {
     position: absolute;
     top: 10.5%;
     display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
     justify-content: space-between;
     left: 5.5%;
     right: 5.5%;
@@ -138,12 +140,16 @@ body {
     bottom: 0;
     margin: auto;
     display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
     justify-content: center;
     align-items: center;
     align-self: center; }
   .home_nav_section .search_box {
     border-bottom: 2px solid #fff;
     display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
     flex-direction: row;
     padding: 0 14px;
     margin-top: 42px; }
@@ -199,17 +205,25 @@ body {
   position: relative; }
   .bring_visual_value .left_side {
     display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
     flex-direction: column;
     width: 53%;
     margin-right: 20px;
     margin-top: 8%; }
   .bring_visual_value .right_side {
     display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
     width: 37%;
     margin-top: -15%; }
   .bring_visual_value .text_visual_value {
     border: 7px solid #CEE8D6;
     display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -moz-flex;
     flex-direction: column;
     padding: 0 9%;
     padding-top: 8%;
@@ -242,6 +256,10 @@ body {
 .featured_images_home {
   background-color: #EAD9CE;
   display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -moz-flex;
   flex-flow: wrap;
   padding: 0 12%;
   padding-top: 9.4%;
@@ -304,7 +322,9 @@ body {
     padding-left: 7%;
     padding-right: 7%;
     padding-bottom: 30%;
-    display: flex; }
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex; }
     .featured_categories .text_featured_categories_home h2 {
       font: 700 6.7em "Raleway", sans-serif;
       color: #2E3B4D;
@@ -322,6 +342,8 @@ body {
         font-weight: 700; }
   .featured_categories .images_featured_categories {
     display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
     justify-content: space-around;
     margin-top: -21.5%;
     padding-left: 5%;
@@ -353,6 +375,8 @@ body {
 .lets_be_friends {
   background-color: #2E3B4D;
   display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
   padding: 0 11%; }
   .lets_be_friends .left_side_lets_be_friends {
     width: 40%;
@@ -407,6 +431,8 @@ body {
   padding-top: 3.5%;
   justify-content: space-between;
   display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
   padding-bottom: 4%; }
   .contact_us div {
     width: 33%; }
