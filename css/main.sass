@@ -52,7 +52,7 @@ $font-size-see_all: 2.2em
   content: "\f0e1"
   font-size: 20px
 
-
+/****homepage***/
 body
   max-width: 1920px
   width: 100%
@@ -72,9 +72,10 @@ body
   .menu_logo_login
     position: absolute
     top: 10.5%
-    display: flex
     display: -webkit-flex
     display: -moz-flex
+    display: flex
+
     justify-content: space-between
     left: 5.5%
     right: 5.5%
@@ -133,18 +134,19 @@ body
     left: 0
     bottom: 0
     margin: auto
-    display: flex
     display: -webkit-flex
     display: -moz-flex
+    display: flex
+
     justify-content: center
     align-items: center
     align-self: center
   .search_box
     border-bottom: 2px solid #fff
-
-    display: flex
     display: -webkit-flex
     display: -moz-flex
+    display: flex
+
     flex-direction: row
     padding: 0 14px
     margin-top: 42px
@@ -178,11 +180,19 @@ body
     &::-moz-placeholder
       text-align: left
       color : $white-color
-      font: 900 43px/60px $font-Playfair
+      font: 900 43px $font-Playfair
+      @-moz-document url-prefix()
+        line-height: 3em
+        vertical-align: middle
+        height: 2em
     &:-moz-placeholder
       text-align: left
       color  : $white-color
       font: 900 43px/60px $font-Playfair
+      @-moz-document url-prefix()
+        line-height: 3em
+        vertical-align: middle
+        height: 2em
     &:-ms-input-placeholder
       text-align: left
       color : $white-color
@@ -203,26 +213,32 @@ body
   padding-bottom: 9.5%
   position: relative
   .left_side
-    display: flex
     display: -webkit-flex
     display: -moz-flex
+    display: flex
+
     flex-direction: column
     width: 53%
     margin-right: 20px
     margin-top: 8%
+    @-moz-document url-prefix()
+      margin-top: 8em
   .right_side
-    display: flex
     display: -webkit-flex
     display: -moz-flex
+    display: flex
+
     width: 37%
     margin-top: -15%
+    @-moz-document url-prefix()
+      margin-top: -10em
   .text_visual_value
     border: $border-widht solid $mint-color
+    display: -webkit-flex
+    display: -moz-flex
     display: flex
-    display: -webkit-flex
-    display: -moz-flex
-    display: -webkit-flex
-    display: -moz-flex
+
+
     flex-direction: column
     padding: 0 9%
     padding-top: 8%
@@ -232,6 +248,8 @@ body
     flex-flow: wrap
     .image_visual_value
       margin-top: -25%
+      @-moz-document url-prefix()
+        margin-top: -25em
       width: 55%
       order: -2
       img
@@ -256,11 +274,11 @@ body
 /*section*/
 .featured_images_home
   background-color: $blush-color
+  display: -webkit-flex
+  display: -moz-flex
   display: flex
-  display: -webkit-flex
-  display: -moz-flex
-  display: -webkit-flex
-  display: -moz-flex
+
+
   flex-flow: wrap
   padding: 0 12%
   padding-top: 9.4%
@@ -271,12 +289,17 @@ body
     width: 44%
     position: relative
     margin-bottom: 2%
+    @-moz-document url-prefix()
+      margin-bottom: 2em
   .img_featured_1
     width: 54%
     margin-bottom: 2%
+    @-moz-document url-prefix()
+      margin-bottom: 2em
   .img_featured_2
     width: 42%
     margin-right: 2%
+
   .img_featured_3
     width: 26%
     margin-right: 2%
@@ -298,6 +321,10 @@ body
     margin-top: 9.5%
     margin-right: 5%
     margin-bottom: 14%
+    @-moz-document url-prefix()
+      margin-bottom: 14em
+      margin-top: 9.5em
+
     a
       font: 900 $font-size-see_all $font-Playfair
       color: $navy-color
@@ -323,9 +350,10 @@ body
     padding-left: 7%
     padding-right: 7%
     padding-bottom: 30%
-    display: flex
     display: -webkit-flex
     display: -moz-flex
+    display: flex
+
     h2
       font: $font-size_w-h2 $font-Raleway
       color: $navy-color
@@ -342,9 +370,10 @@ body
       span
         font-weight: 700
   .images_featured_categories
-    display: flex
     display: -webkit-flex
     display: -moz-flex
+    display: flex
+
     justify-content: space-around
     margin-top: -21.5%
     padding-left: 5%
@@ -376,9 +405,10 @@ body
 /***section**/
 .lets_be_friends
   background-color: $navy-color
-  display: flex
   display: -webkit-flex
   display: -moz-flex
+  display: flex
+
   padding: 0 11%
   .left_side_lets_be_friends
     width: 40%
@@ -402,7 +432,9 @@ body
       letter-spacing: 0.05em
       width: 100%
       margin-bottom: 10%
+      margin-bottom: 5%
       line-height: 1.5em
+
     a
       font: 900 $font-size-see_all $font-Playfair
       color: $blush-color
@@ -419,6 +451,9 @@ body
     width: 60%
     margin-top: -14%
     margin-bottom: 13.3%
+    @-moz-document url-prefix()
+      margin-top: -14em
+      margin-bottom: 13.3em
     img
       width: 100%
       -webkit-box-shadow: 26px 22px 57px -16px rgba(0,0,0,0.92)
@@ -432,12 +467,14 @@ body
   padding-right: 2%
   padding-top: 3.5%
   justify-content: space-between
-  display: flex
   display: -webkit-flex
   display: -moz-flex
+  display: flex
+
   padding-bottom: 4%
   div
     width: 33%
+
   .logo_contact
     text-align: center
     margin-top: 1.5%
@@ -505,20 +542,269 @@ body
         color: $san_marino-color
       &:focus
         color: $san_marino-color
+/****end homepage***/
+
+/*****about*****/
+
+.home_nav_section.about
+  .about_text
+    text-align: center
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    margin: auto
+    width: 50%
+    justify-content: center
+    align-items: center
+    align-self: center
+    height: 20%
+
+
+    h2
+      font: $font-size_w-h2 $font-Raleway
+      color: $white-color
+      margin-bottom: 5.5%
+    p
+      font: 500 2em $font-Raleway
+      color: $white-color
+      padding: 0 14.5%
+      letter-spacing: 0.05em
+.featured_categories.about
+  padding-bottom: 27.5%
+  padding-top: 7%
+  .text_featured_categories_home
+    border-color: $mint-color
+    padding-top: 5%
+    h2
+      width: 100%
+      padding-left: 4%
+  .images_featured_categories
+    margin-top: -25.5%
+    div
+      background-color: $mint-color
+      h4
+        font: 700 2.5em $font-Raleway
+        color: $navy-color
+        padding-top: 15.5%
+        padding-left: 13%
+      p
+        font: 500 1.7em $font-Raleway
+        color: $navy-color
+        margin-top: 13%
+        padding-right: 20%
+        padding-left: 13%
+        line-height: 1.4em
+        margin-bottom: 22%
+.frequently_asked_questions
+  padding: 0 14.5%
+  background-color: $gray-color
+  display: flex
+  flex-direction: column
+  flex-flow: wrap
+  color: $navy-color
+  padding-top: 7.5%
+  .left_side
+    display: flex
+    flex-direction: column
+    width: 50%
+    margin-bottom: 11%
+  .right_side
+    display: flex
+    flex-direction: column
+    width: 50%
+    div
+      margin-left: 9%
+      p
+        width: 98%
+  h2
+    font: 700 3.3em $font-Raleway
+    width: 100%
+    margin-bottom: 5%
+    @-moz-document url-prefix()
+      margin-bottom: 0.5em
+  h4
+    font: 700 2em $font-Raleway
+    margin-bottom: 7%
+
+  p
+    font: 500 2em $font-Raleway
+    width: 82%
+    line-height: 1.4em
+    margin-bottom: 12%
+    a
+      display: inline-block
+      color: $navy-color
+      border-bottom-width: 1px
+      border-bottom-style: solid
+      border-bottom-color: $navy-color
+      transition: border-bottom-color 0.5s ease
+        /*hover*************************************/
+      &:hover
+        text-decoration: none
+        border-bottom-color: transparent
+.more_answers
+  background-color: $mint-color
+  padding: 2% 14%
+  display: flex
+  justify-content: space-between
+  p
+    font: 700 2em $font-Raleway
+    color: $navy-color
+    line-height: 2em
+    a
+      display: inline-block
+      line-height: 2em
+      color: $navy-color
+      border-bottom-width: 2px
+      border-bottom-style: solid
+      border-bottom-color: $navy-color
+      transition: border-bottom-color 0.5s ease
+      /*hover*************************************/
+      &:hover
+        text-decoration: none
+        border-bottom-color: transparent
+.white_space_contributor
+  background-color: $white-color
+  min-height: 1px
+  margin-bottom: 27.5%
+  @-moz-document url-prefix()
+    margin-bottom: 37em
+
+.lets_be_friends.about.contributor
+  padding: 0 10%
+  .left_side_lets_be_friends
+    width: 41%
+    h2
+      padding-top: 17%
+      padding-bottom: 20%
+      left: 7%
+    p
+      margin-top: 24%
+      max-width: 460px
+      padding-left: 7%
+      margin-bottom: 0
+    span
+      padding-left: 7%
+  .right_side_lets_be_friends
+    width: 59%
+    margin-top: -14%
+    margin-bottom: 12.6%
+    @-moz-document url-prefix()
+      margin-bottom: 7em
+      margin-top: -11em
+
+  /*****end about*****/
+  /*****membership**/
+.featured_categories.about.membership
+  padding-bottom: 10.5%
+  .text_featured_categories_home
+    border-color: $blush-color
+  .images_featured_categories
+    p
+      margin-top: 10%
+      margin-bottom: 18%
+    div
+      background-color: $blush-color
+      .price
+        font-weight: 700
+        font-size: 8em
+        margin-top: 8%
+        margin-bottom: 1%
+        span
+          position: relative
+          color: $navy-color
+          font-weight: 700
+          right: 4%
+          font-size: 0.7em
+    .text
+      margin-top: 0
+      margin-bottom: 9%
+    a
+      font: 900 1.2em $font-Playfair
+      color: $navy-color
+      line-height: 2em
+      display: inline-block
+      border-bottom-width: 2px
+      border-bottom-style: solid
+      border-bottom-color: $navy-color
+      transition: border-bottom-color 0.5s ease
+      /*hover*************************************/
+      &:hover
+        text-decoration: none
+        border-bottom-color: transparent
+.frequently_asked_questions.membership
+  background-color: $mint-color
+  .left_side
+    margin-bottom: 8.5%
+  p
+    line-height: 1.2em
+
+.bring_visual_value.membership
+  padding-top: 13%
+  padding-left: 22%
+  padding-right: 12%
+  width: auto
+  .text_visual_value
+    padding: 0
+    padding-top: 6%
+    padding-bottom: 6%
+    .image_visual_value
+      margin-top: 0
+      width: 58%
+      margin-left: -15%
+
+  .right_side
+    color: $navy-color
+
+    width: 48%
+    margin-left: 5%
+    margin-top: 5%
+    flex-direction: column
+    .location
+      font: 700 2em $font-Raleway
+    .name
+      font: 700 4em $font-Raleway
+      margin-top: 2%
+      margin-bottom: 7%
+    .description
+      font: 500 2em $font-Raleway
+      max-width: 452px
+      line-height: 1.5em
+.white_space_contributor.membership
+  margin-bottom: 21.5%
+.lets_be_friends.about.contributor.membership
+  .left_side_lets_be_friends
+    h2
+      text-align: left
+      padding-left: 18%
+      span
+        display: block
+        padding: 0
+    p
+      margin-top: 22%
+
+  /*****end membership**/
 
 @media (max-width: 1600px)
+  /****homepage***/
   .bring_visual_value .text_visual_value h2, .featured_images_home h2,.featured_categories .text_featured_categories_home h2
     font-size: 6.1em
   .contact_us .logo_contact
     margin-right: 0
   .contact_us h3
     max-width: 400px
+  /****end homepage***/
 
 
 @media (max-width: 1400px)
+  /****homepage***/
   body
     font-size: 11px
+  /****end homepage***/
 @media (max-width: 1250px)
+  /****homepage***/
   .home_nav_section .menu_logo_login
     flex-flow: wrap
     top: 5.5%
@@ -557,11 +843,23 @@ body
   .featured_categories .text_featured_categories_home h2
     margin-right: 12%
     padding-left: 7%
+  /****end homepage***/
+  /****about***/
+  .home_nav_section.about .about_text
+    height: 32%
+  .white_space_contributor
+    @-moz-document url-prefix()
+      margin-bottom: 30em
+  /****end about***/
 
 @media (max-width: 1100px)
   body
     font-size: 9px
+  .home_nav_section.about .about_text
+    height: 36%
+
 @media (max-width: 1000px)
+  /****homepage***/
   body
     font-size: 8px
   .lets_be_friends .left_side_lets_be_friends p
@@ -570,6 +868,7 @@ body
     font-size: 1.8em
   .contact_us .logo_contact a img
     width: 60px
+  /****end homepage***/
 @media (max-width: 900px)
   body
     font-size: 7px
@@ -577,24 +876,34 @@ body
     font-size: 2em
   .contact_us div:first-child p
     font-size: 2em
-
+  .frequently_asked_questions .right_side div p,.frequently_asked_questions .left_side div p
+    width: 100%
 @media (max-width: 800px)
   body
     font-size: 6px
+  .lets_be_friends.about.contributor.membership .left_side_lets_be_friends h2
+    padding-bottom: 14%
 @media (max-width: 700px)
+  /****homepage***/
   .bring_visual_value .text_visual_value
     border-width: 5px
   .bring_visual_value .text_visual_value .image_visual_value
     width: 100%
+    @-moz-document url-prefix()
+      margin-top: -10em
   .bring_visual_value .right_side
     width: 100%
     margin-top: 4%
+    @-moz-document url-prefix()
+      margin-top: 4em
     order: -1
     text-align: center
   .bring_visual_value .left_side
     width: 100%
     margin-right: 0
     margin-top: 4%
+    @-moz-document url-prefix()
+      margin-top: 4em
     p
       font-size: 2.5em
   .featured_images_home
@@ -603,12 +912,17 @@ body
     padding-top: 6.4%
     p
       margin-bottom: 6%
+      @-moz-document url-prefix()
+      margin-bottom: 6em
     h2
       border-width: 5px
+
   .featured_categories .text_featured_categories_home,.lets_be_friends .left_side_lets_be_friends h2
     border-width: 5px
   .lets_be_friends .left_side_lets_be_friends
     margin-bottom: 7%
+    @-moz-document url-prefix()
+      margin-bottom: 7em
   .contact_us .logo_contact
     width: 50%
     margin-top: 0
@@ -624,22 +938,45 @@ body
       text-align: center
       margin: 0
       margin-bottom: 4%
+      @-moz-document url-prefix()
+        margin-bottom: 1em
   .featured_categories .images_featured_categories
     margin-top: -26.5%
+  /****end homepage***/
+  /****about***/
+  .home_nav_section.about .about_text
+    width: 90%
+  .featured_categories.about .text_featured_categories_home h2
+    text-align: left
+  .lets_be_friends.about.contributor .left_side_lets_be_friends h2
+    font-size: 3.5em
+    padding-bottom: 12%
+  /****end about***/
+  /***membership**/
+  .bring_visual_value.membership .right_side
+    text-align: left
+  /***end membership**/
+
 @media (max-width: 531px)
+  /****homepage***/
   .home_nav_section .search_box
     width: 222px
     padding: 0
+
   .home_nav_section
     input
       &::-webkit-input-placeholder
         font-size: 14px
+        line-height: 100%
       &::-moz-placeholder
         font-size: 14px
+
       &:-moz-placeholder
         font-size: 14px
+
       &:-ms-input-placeholder
         font-size: 14px
+        line-height: 100%
   .home_nav_section .search_sumbit
     width: 17px
     height: 3em
@@ -667,11 +1004,16 @@ body
     width: 80%
     margin: 0 auto
     margin-bottom: 2%
+    @-moz-document url-prefix()
+      margin-bottom: 2em
   .featured_images_home .img_featured_2,.featured_images_home .img_featured_3,.featured_images_home .img_featured_4
     width: 80%
 
     margin: 0 auto
     margin-bottom: 2%
+    @-moz-document url-prefix()
+      margin-bottom: 2em
+
   .featured_categories
     padding-bottom: 22.5%
   .featured_categories .images_featured_categories
@@ -679,7 +1021,10 @@ body
   .featured_categories .images_featured_categories div
     width: 80%
     margin: 0 auto
+    height: 100%
     margin-bottom: 10%
+    @-moz-document url-prefix()
+      margin-bottom: 5em
   .featured_categories .images_featured_categories p
     margin-top: 4%
     text-align: center
@@ -694,18 +1039,25 @@ body
   .lets_be_friends .right_side_lets_be_friends
     order: -2
     margin-bottom: 8.3%
+    height: 100%
+    @-moz-document url-prefix()
+      margin-bottom: 7em
+      margin-top: -8em
     width: 100%
 
   .lets_be_friends .left_side_lets_be_friends
     width: 100%
+    height: 100%
     h2
       margin-top: 0
       padding-top: 10%
       padding-bottom: 10%
+
       position: relative
     p
       font-size: 2.5em
       margin-top: 8%
+
       width: 100%
       margin-bottom: 4%
     span
@@ -716,6 +1068,7 @@ body
         font-size: 3em
   .contact_us
     flex-flow: wrap
+    padding-bottom: 10%
     div
       margin-right: 5%
       margin-left: 5%
@@ -729,3 +1082,121 @@ body
         margin-bottom: 4%
       a
         font-size: 2em
+  /****end homepage***/
+  /****about***/
+  .home_nav_section.about .about_text
+    height: 14%
+    h2
+      margin-bottom: 2.5%
+      font-size: 3.7em
+    p
+      padding: 0
+      font-size: 1.7em
+  .featured_categories.about .text_featured_categories_home
+    padding-bottom: 200%
+  .featured_categories.about .images_featured_categories
+    margin-top: -194.5%
+  .featured_categories.about .images_featured_categories div h4
+    padding-left: 0
+    text-align: center
+    font-size: 3em
+    padding-top: 11.5%
+  .featured_categories.about .images_featured_categories div p
+    padding-right: 7%
+    padding-left: 7%
+    font-size: 2em
+    text-align: left
+    margin-top: 8%
+  .frequently_asked_questions .left_side,.frequently_asked_questions .right_side
+    width: 100%
+  .frequently_asked_questions .right_side div
+    margin-left: 0
+
+  .frequently_asked_questions .left_side
+    margin-bottom: 0
+  .lets_be_friends.about.contributor .right_side_lets_be_friends,.lets_be_friends.about.contributor .left_side_lets_be_friends
+    width: 100%
+  .lets_be_friends.about.contributor .left_side_lets_be_friends
+    h2
+      left: 0
+      padding-top: 10%
+      padding-bottom: 10%
+    p
+      margin-top: 8%
+      padding-left: 0
+    span
+      padding-left: 0
+  .frequently_asked_questions p
+    width: 100%
+    margin-bottom: 7%
+  .white_space_contributor
+    @-moz-document url-prefix()
+      margin-bottom: 22em
+
+  /****end about***/
+  /*****membership**/
+  .lets_be_friends.about.contributor.membership
+    .left_side_lets_be_friends
+      h2
+        text-align: center
+        padding-left: 0
+        span
+          display: inline
+          padding: 0
+      p
+        margin-top: 8%
+        margin-bottom: 4%
+    .right_side_lets_be_friends
+      margin-bottom: 8.3%
+      @-moz-document url-prefix()
+        margin-bottom: 7em
+        margin-top: -6em
+  .featured_categories.about.membership
+    .images_featured_categories div
+      .text
+        text-align: left
+      p
+        text-align: center
+  .bring_visual_value.membership
+    width: 83%
+    margin: 0 auto
+    padding-left: 0
+    padding-right: 0
+    padding-top: 18%
+    .text_visual_value
+      flex-flow: inherit
+      flex-direction: column
+      padding: 6% 9%
+      .image_visual_value
+        width: 100%
+        margin-left: 0
+        margin-top: -25%
+        height: 100%
+        @-moz-document url-prefix()
+          margin-top: -10em
+          margin-bottom: 4em
+    .right_side
+      width: 100%
+      margin-left: 0
+      .name
+        @-moz-document url-prefix()
+          margin-bottom: 0.5em
+          margin-top: 0.2em
+      .name,.location
+        text-align: center
+
+  .frequently_asked_questions.membership
+    h4
+      text-align: center
+      font-size: 2.5em
+    /*****end membership**/
+  .contact_us
+    div
+      width: 5%
+    .all_right
+      width: 67%
+@media (max-width: 400px)
+  .featured_categories.about .text_featured_categories_home
+    padding-bottom: 297%
+  .featured_categories.about .images_featured_categories
+    margin-top: -297.5%
