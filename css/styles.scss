@@ -228,18 +228,21 @@ body {
     font: 900 4em / 2em $font-Playfair;
     -webkit-appearance: none;
     background: transparent;
+    margin-top: 4px;
 
     &::-webkit-input-placeholder {
       text-align: left;
       color: $white-color;
 
       font: 900 4em / 2em $font-Playfair;
+      margin-top: 4px;
     }
 
     &::-moz-placeholder {
       text-align: left;
       color: $white-color;
       font: 900 4em / 2em $font-Playfair;
+      margin-top: 4px;
 
       @-moz-document url-prefix() {
         line-height: 3em;
@@ -252,6 +255,7 @@ body {
       text-align: left;
       color: $white-color;
       font: 900 4em / 2em $font-Playfair;
+      margin-top: 4px;
 
       @-moz-document url-prefix() {
         line-height: 3em;
@@ -264,6 +268,7 @@ body {
       text-align: left;
       color: $white-color;
       font: 900 4em / 2em $font-Playfair;
+      margin-top: 4px;
     }
   }
 

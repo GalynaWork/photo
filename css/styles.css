@@ -194,15 +194,18 @@ body {
     outline: none;
     font: 900 4em/2em "Playfair Display", serif;
     -webkit-appearance: none;
-    background: transparent; }
+    background: transparent;
+    margin-top: 4px; }
     .home_nav_section input::-webkit-input-placeholder {
       text-align: left;
       color: #fff;
-      font: 900 4em/2em "Playfair Display", serif; }
+      font: 900 4em/2em "Playfair Display", serif;
+      margin-top: 4px; }
     .home_nav_section input::-moz-placeholder {
       text-align: left;
       color: #fff;
-      font: 900 4em/2em "Playfair Display", serif; }
+      font: 900 4em/2em "Playfair Display", serif;
+      margin-top: 4px; }
 @-moz-document url-prefix() {
   .home_nav_section input::-moz-placeholder {
     line-height: 3em;
@@ -211,7 +214,8 @@ body {
     .home_nav_section input:-moz-placeholder {
       text-align: left;
       color: #fff;
-      font: 900 4em/2em "Playfair Display", serif; }
+      font: 900 4em/2em "Playfair Display", serif;
+      margin-top: 4px; }
 @-moz-document url-prefix() {
   .home_nav_section input:-moz-placeholder {
     line-height: 3em;
@@ -220,7 +224,8 @@ body {
     .home_nav_section input:-ms-input-placeholder {
       text-align: left;
       color: #fff;
-      font: 900 4em/2em "Playfair Display", serif; }
+      font: 900 4em/2em "Playfair Display", serif;
+      margin-top: 4px; }
   .home_nav_section input[type="search"]:focus {
     outline: none; }
   .home_nav_section input[type="search"]::-webkit-search-cancel-button {
