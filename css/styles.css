@@ -1357,7 +1357,7 @@ body {
     .search_category .search_box .search_submit, .search_category .search_box input {
       border: none;
       background-color: transparent;
-      font: 700 3.3em "Raleway", sans-serif;
+      font: 700 3em "Raleway", sans-serif;
       color: #2E3B4D;
       outline: none;
       cursor: pointer; }

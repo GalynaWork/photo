@@ -19,8 +19,8 @@ $(function() {
     });
     $(document).ready(function(){
         $('#nav-icon1').click(function(){
-            $(this).toggleClass('open');
-            $("nav").toggleClass('open');
+        //    $(this).toggleClass('open');
+           // $("nav").toggleClass('open');
         });
 
     });
