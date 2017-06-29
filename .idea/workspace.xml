@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e3b1d2d-837a-4613-82dc-b344480e118b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css.map" afterPath="$PROJECT_DIR$/css/styles.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.scss" afterPath="$PROJECT_DIR$/css/styles.scss" />
@@ -20,7 +21,17 @@
         <entry file="file://$PROJECT_DIR$/css/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="321">
-              <caret line="380" column="19" lean-forward="false" selection-start-line="380" selection-start-column="10" selection-end-line="380" selection-end-column="19" />
+              <caret line="3935" column="76" lean-forward="false" selection-start-line="3935" selection-start-column="2" selection-end-line="3935" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -36,6 +47,13 @@
       <find>order:</find>
       <find>flex-direction</find>
       <find>flex-flow</find>
+      <find>height:</find>
+      <find>height: auto</find>
+      <find>.images_page</find>
+      <find>.user_info</find>
+      <find>.photographer</find>
+      <find>width: 80</find>
+      <find>.featured_images_home.photographer .text_featured_images_home .all_img div</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -152,12 +170,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1498760248886</updated>
-      <workItem from="1498760251529" duration="3388000" />
+      <workItem from="1498760251529" duration="4562000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3388000" />
+    <option name="totallyTimeSpent" value="4562000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -193,10 +211,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
-          <caret line="380" column="19" lean-forward="false" selection-start-line="380" selection-start-column="10" selection-end-line="380" selection-end-column="19" />
+          <caret line="3935" column="76" lean-forward="false" selection-start-line="3935" selection-start-column="2" selection-end-line="3935" selection-end-column="76" />
           <folding />
         </state>
       </provider>
