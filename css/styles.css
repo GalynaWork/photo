@@ -1531,9 +1531,11 @@ body {
     display: -webkit-flex;
     width: 100%;
     margin: 0;
-    height: 100%;
     /***end imageDetails** */
     /****images */ }
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+      .similar_images .images_block {
+        height: 100%; } }
     .similar_images .images_block div {
       margin-right: 1%; }
       .similar_images .images_block div:last-child {
@@ -1545,8 +1547,8 @@ body {
         cursor: pointer; }
 
 .images_page {
-  display: -webkit-flex;
-  display: block; }
+  display: flex;
+  display: -webkit-flex; }
   .images_page .right_menu.image {
     background-color: #2E3B4D;
     width: 331px;
@@ -1560,8 +1562,10 @@ body {
   .images_page .left {
     background-color: #fff;
     width: auto;
-    width: 100%;
-    height: 100%; }
+    width: 100%; }
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+      .images_page .left {
+        height: 100%; } }
   .images_page .search_category .search_box {
     padding-top: 3.5%;
     padding-bottom: 4%; }
@@ -2576,8 +2580,11 @@ body {
   .featured_categories .images_featured_categories div {
     width: 80%;
     margin: 0 auto;
-    height: 100%;
-    margin-bottom: 10%; }
+    margin-bottom: 10%; } }
+  @media screen and (max-width: 531px) and (-ms-high-contrast: active), (max-width: 531px) and (-ms-high-contrast: none) {
+    .featured_categories .images_featured_categories div {
+      height: 100%; } }
+@media (max-width: 531px) {
   @-moz-document url-prefix() {
     .featured_categories .images_featured_categories div {
       margin-bottom: 5em; } }
@@ -2602,15 +2609,21 @@ body {
     order: -2;
     -webkit-order: -2;
     margin-bottom: 8.3%;
-    height: 100%;
-    width: 100%; }
+    width: 100%; } }
+  @media screen and (max-width: 531px) and (-ms-high-contrast: active), (max-width: 531px) and (-ms-high-contrast: none) {
+    .lets_be_friends .right_side_lets_be_friends {
+      height: 100%; } }
+@media (max-width: 531px) {
   @-moz-document url-prefix() {
     .lets_be_friends .right_side_lets_be_friends {
       margin-bottom: 7em;
       margin-top: -8em; } }
   .lets_be_friends .left_side_lets_be_friends {
-    width: 100%;
-    height: 100%; }
+    width: 100%; } }
+  @media screen and (max-width: 531px) and (-ms-high-contrast: active), (max-width: 531px) and (-ms-high-contrast: none) {
+    .lets_be_friends .left_side_lets_be_friends {
+      height: 100%; } }
+@media (max-width: 531px) {
     .lets_be_friends .left_side_lets_be_friends h2 {
       margin-top: 0;
       padding-top: 10%;
@@ -2687,9 +2700,12 @@ body {
     margin-bottom: 0; }
 
   .lets_be_friends.about.contributor .right_side_lets_be_friends, .lets_be_friends.about.contributor .left_side_lets_be_friends {
-    width: 100%;
-    height: 100%; }
+    width: 100%; } }
+  @media screen and (max-width: 531px) and (-ms-high-contrast: active), (max-width: 531px) and (-ms-high-contrast: none) {
+    .lets_be_friends.about.contributor .right_side_lets_be_friends, .lets_be_friends.about.contributor .left_side_lets_be_friends {
+      height: 100%; } }
 
+@media (max-width: 531px) {
   .lets_be_friends.about.contributor .left_side_lets_be_friends h2 {
     left: 0;
     padding-top: 10%;
@@ -2744,8 +2760,11 @@ body {
       .bring_visual_value.membership .text_visual_value .image_visual_value {
         width: 100%;
         margin-left: 0;
-        margin-top: -25%;
-        height: 100%; }
+        margin-top: -25%; } }
+      @media screen and (max-width: 531px) and (-ms-high-contrast: active), (max-width: 531px) and (-ms-high-contrast: none) {
+        .bring_visual_value.membership .text_visual_value .image_visual_value {
+          height: 100%; } }
+@media (max-width: 531px) {
   @-moz-document url-prefix() {
     .bring_visual_value.membership .text_visual_value .image_visual_value {
       margin-top: -10em;
@@ -2780,8 +2799,11 @@ body {
   .bring_visual_value.photographer .text_visual_value .image_visual_value {
     text-align: center; }
     .bring_visual_value.photographer .text_visual_value .image_visual_value img {
-      max-width: 180px;
-      height: 100%; }
+      max-width: 180px; } }
+    @media screen and (max-width: 531px) and (-ms-high-contrast: active), (max-width: 531px) and (-ms-high-contrast: none) {
+      .bring_visual_value.photographer .text_visual_value .image_visual_value img {
+        height: 100%; } }
+@media (max-width: 531px) {
   .bring_visual_value.photographer .text_visual_value .right_side {
     margin-top: 5%;
     margin-right: 0; }
@@ -2825,12 +2847,18 @@ body {
       text-align: center; }
     .article_note.resourses .left_side {
       width: 100%;
-      margin-right: 0;
-      height: 100%; }
+      margin-right: 0; } }
+    @media screen and (max-width: 531px) and (-ms-high-contrast: active), (max-width: 531px) and (-ms-high-contrast: none) {
+      .article_note.resourses .left_side {
+        height: 100%; } }
+@media (max-width: 531px) {
     .article_note.resourses .right_side {
-      width: 100%;
-      height: 100%; }
+      width: 100%; } }
+    @media screen and (max-width: 531px) and (-ms-high-contrast: active), (max-width: 531px) and (-ms-high-contrast: none) {
+      .article_note.resourses .right_side {
+        height: 100%; } }
 
+@media (max-width: 531px) {
   .bring_visual_value.membership.resourses .text_visual_value .image_visual_value {
     width: 80%;
     margin: 0 auto;
@@ -2899,9 +2927,12 @@ body {
     .similar_images .images_block div {
       margin-bottom: 3em; } }
   .similar_images .images_block div {
-    width: 80%;
-    height: 100%; }
+    width: 80%; } }
+  @media screen and (max-width: 531px) and (-ms-high-contrast: active), (max-width: 531px) and (-ms-high-contrast: none) {
+    .similar_images .images_block div {
+      height: 100%; } }
 
+@media (max-width: 531px) {
   .similar_images h2 {
     font-size: 4.5em; }
 
@@ -2917,8 +2948,11 @@ body {
       margin-bottom: 4em; } }
     .user_info .right_side {
       width: 78%;
-      margin: 0 auto;
-      height: 100%; }
+      margin: 0 auto; } }
+    @media screen and (max-width: 531px) and (-ms-high-contrast: active), (max-width: 531px) and (-ms-high-contrast: none) {
+      .user_info .right_side {
+        height: 100%; } }
+@media (max-width: 531px) {
     .user_info .fa-heart:before, .user_info .fa-refresh:before {
       font-size: 12px; }
 
