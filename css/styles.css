@@ -790,7 +790,8 @@ body {
     width: 48%;
     margin-left: 5%;
     margin-top: 5%;
-    flex-direction: column; }
+    flex-direction: column;
+    -webkit-flex-direction: column; }
     .bring_visual_value.membership .right_side .location {
       font: 700 2em "Raleway", sans-serif; }
     .bring_visual_value.membership .right_side .name {
@@ -1270,6 +1271,7 @@ body {
 
 .lets_be_friends.about.contributor.membership.resourses {
   flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
   /***end resourses* */
   /***imageDetails** */ }
   .lets_be_friends.about.contributor.membership.resourses .border {
@@ -2198,6 +2200,7 @@ body {
 @media (max-width: 992px) {
   .images_page {
     flex-direction: column;
+    -webkit-flex-direction: column;
     position: relative; }
 
   .images_page .mob_filter.sort {
@@ -2292,7 +2295,8 @@ body {
 
   /**article*** */
   .article_note {
-    flex-direction: column; }
+    flex-direction: column;
+    -webkit-flex-direction: column; }
     .article_note .left_side {
       width: 100%;
       margin-right: 0; }
@@ -2304,12 +2308,14 @@ body {
 
   .anithing_else {
     justify-content: center;
+    -webkit-justify-content: center;
     padding: 4% 10%; }
     .anithing_else div {
       width: 100%; }
 
   .share_user {
-    flex-direction: column; }
+    flex-direction: column;
+    -webkit-flex-direction: column; }
     .share_user .right_side {
       width: 100%;
       margin-left: 0;
@@ -2328,7 +2334,8 @@ body {
   /**end article*** */
   /***resourses* */
   .article_note.resourses {
-    flex-direction: row; }
+    flex-direction: row;
+    -webkit-flex-direction: row; }
 
   /***resourses* */
   /**imageDet* */
@@ -2405,7 +2412,8 @@ body {
 
   .featured_categories .text_featured_categories_home {
     padding-top: 4.5%;
-    flex-direction: column; }
+    flex-direction: column;
+    -webkit-flex-direction: column; }
     .featured_categories .text_featured_categories_home h2 {
       padding-left: 0;
       width: 100%;
@@ -2492,7 +2500,8 @@ body {
     padding: 0; }
 
   .featured_images_home .all_img {
-    flex-direction: column; }
+    flex-direction: column;
+    -webkit-flex-direction: column; }
 
   .home_nav_section input::-webkit-input-placeholder {
     font-size: 14px;
@@ -2559,7 +2568,8 @@ body {
     padding-bottom: 22.5%; }
 
   .featured_categories .images_featured_categories {
-    flex-direction: column; }
+    flex-direction: column;
+    -webkit-flex-direction: column; }
 
   .featured_categories .images_featured_categories div {
     width: 80%;
@@ -2583,7 +2593,8 @@ body {
     font-size: 2.4em; }
 
   .lets_be_friends {
-    flex-direction: column; }
+    flex-direction: column;
+    -webkit-flex-direction: column; }
 
   .lets_be_friends .right_side_lets_be_friends {
     order: -2;
@@ -2624,7 +2635,7 @@ body {
     .contact_us .logo_contact {
       width: 100%;
       order: -2;
-      order: -2;
+      -webkit-order: -2;
       margin: 0;
       margin-bottom: 3%; }
       .contact_us .logo_contact h3 {
@@ -2723,7 +2734,9 @@ body {
     padding-top: 18%; }
     .bring_visual_value.membership .text_visual_value {
       flex-flow: inherit;
+      -webkit-flex-flow: inherit;
       flex-direction: column;
+      -webkit-flex-direction: column;
       padding: 6% 9%; }
       .bring_visual_value.membership .text_visual_value .image_visual_value {
         width: 100%;
@@ -2803,7 +2816,8 @@ body {
     display: none; }
 
   .article_note.resourses {
-    flex-direction: column; }
+    flex-direction: column;
+    -webkit-flex-direction: column; }
     .article_note.resourses h4 {
       text-align: center; }
     .article_note.resourses .left_side {
@@ -2827,7 +2841,8 @@ body {
     text-align: center; }
 
   .lets_be_friends.about.contributor.membership.resourses {
-    flex-direction: column; }
+    flex-direction: column;
+    -webkit-flex-direction: column; }
 
   .lets_be_friends.about.contributor.membership.resourses .border {
     margin-top: 0;
@@ -2839,7 +2854,8 @@ body {
     padding-bottom: 14%; }
 
   .featured_images_home.photographer .post {
-    flex-direction: column; }
+    flex-direction: column;
+    -webkit-flex-direction: column; }
 
   .featured_images_home.photographer .post .block_img_text {
     width: 100%; }
@@ -2869,7 +2885,9 @@ body {
 
   .similar_images .images_block {
     flex-direction: column;
-    align-items: center; }
+    -webkit-flex-direction: column;
+    align-items: center;
+    -webkit-align-items: center; }
 
   .similar_images .images_block div {
     margin-right: 0;
@@ -2885,7 +2903,8 @@ body {
     font-size: 4.5em; }
 
   .user_info {
-    flex-direction: column; }
+    flex-direction: column;
+    -webkit-flex-direction: column; }
     .user_info .left_side {
       width: 78%;
       margin: 0 auto;
