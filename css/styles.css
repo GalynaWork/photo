@@ -194,8 +194,7 @@ body {
     outline: none;
     font: 900 4em/2em "Playfair Display", serif;
     -webkit-appearance: none;
-    background: transparent;
-    margin-top: 4px; }
+    background: transparent; }
     .home_nav_section input::-webkit-input-placeholder {
       text-align: left;
       color: #fff;
@@ -278,7 +277,8 @@ body {
     .bring_visual_value .text_visual_value .image_visual_value {
       margin-top: -25%;
       width: 55%;
-      order: -2; }
+      order: -2;
+      -webkit-order: -2; }
 @-moz-document url-prefix() {
   .bring_visual_value .text_visual_value .image_visual_value {
     margin-top: -25em; } }
@@ -2077,22 +2077,6 @@ body {
 /****end homepage** */
 @media (max-width: 1250px) {
   /****homepage** */
-  /* .home_nav_section .menu_logo_login {
-     flex-flow: wrap;
-     top: 5.5%;
-
-     .logo_home {
-       width: 100%;
-       order: -2;
-       margin-bottom: 2%;
-       text-align: center;
-
-       img {
-         position: relative;
-         width: 25px;
-       }
-     }
-   }*/
   .home_nav_section input::-webkit-input-placeholder {
     font-size: 24px; }
   .home_nav_section input::-moz-placeholder {
@@ -2329,7 +2313,8 @@ body {
     .share_user .right_side {
       width: 100%;
       margin-left: 0;
-      order: -1; }
+      order: -1;
+      -webkit-order: -1; }
     .share_user .left_side {
       margin-right: 0;
       width: 100%;
@@ -2377,6 +2362,7 @@ body {
     width: 100%;
     margin-top: 4%;
     order: -1;
+    -webkit-order: -1;
     text-align: center; }
   @-moz-document url-prefix() {
     .bring_visual_value .right_side {
@@ -2601,6 +2587,7 @@ body {
 
   .lets_be_friends .right_side_lets_be_friends {
     order: -2;
+    -webkit-order: -2;
     margin-bottom: 8.3%;
     height: auto;
     width: 100%; }
@@ -2636,6 +2623,7 @@ body {
       margin-left: 5%; }
     .contact_us .logo_contact {
       width: 100%;
+      order: -2;
       order: -2;
       margin: 0;
       margin-bottom: 3%; }

@@ -19,8 +19,8 @@
       <file leaf-file-name="styles.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="729">
-              <caret line="270" column="22" lean-forward="false" selection-start-line="270" selection-start-column="22" selection-end-line="270" selection-end-column="22" />
+            <state relative-caret-position="321">
+              <caret line="209" column="12" lean-forward="false" selection-start-line="209" selection-start-column="5" selection-end-line="209" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -33,6 +33,7 @@
       <find>height</find>
       <find>height: 100</find>
       <find>display: flex</find>
+      <find>order:</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -149,12 +150,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1498760248886</updated>
-      <workItem from="1498760251529" duration="2533000" />
+      <workItem from="1498760251529" duration="2866000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2533000" />
+    <option name="totallyTimeSpent" value="2866000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -192,8 +193,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="270" column="22" lean-forward="false" selection-start-line="270" selection-start-column="22" selection-end-line="270" selection-end-column="22" />
+        <state relative-caret-position="321">
+          <caret line="209" column="12" lean-forward="false" selection-start-line="209" selection-start-column="5" selection-end-line="209" selection-end-column="12" />
           <folding />
         </state>
       </provider>

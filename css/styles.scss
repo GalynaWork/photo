@@ -228,7 +228,7 @@ body {
     font: 900 4em / 2em $font-Playfair;
     -webkit-appearance: none;
     background: transparent;
-    margin-top: 4px;
+
 
     &::-webkit-input-placeholder {
       text-align: left;
@@ -342,6 +342,7 @@ body {
 
       width: 55%;
       order: -2;
+      -webkit-order: -2;
 
       img {
         max-width: 712px;
@@ -2944,22 +2945,7 @@ body {
 /****end homepage** */
 @media (max-width: 1250px) {
   /****homepage** */
-  /* .home_nav_section .menu_logo_login {
-     flex-flow: wrap;
-     top: 5.5%;
 
-     .logo_home {
-       width: 100%;
-       order: -2;
-       margin-bottom: 2%;
-       text-align: center;
-
-       img {
-         position: relative;
-         width: 25px;
-       }
-     }
-   }*/
 
   .home_nav_section {
     input {
@@ -3284,6 +3270,7 @@ body {
       width: 100%;
       margin-left: 0;
       order: -1;
+      -webkit-order: -1;
     }
 
     .left_side {
@@ -3358,6 +3345,7 @@ body {
     }
 
     order: -1;
+    -webkit-order: -1;
     text-align: center;
   }
 
@@ -3670,6 +3658,7 @@ body {
 
   .lets_be_friends .right_side_lets_be_friends {
     order: -2;
+    -webkit-order: -2;
     margin-bottom: 8.3%;
     height: auto;
 
@@ -3722,6 +3711,7 @@ body {
     .logo_contact {
       width: 100%;
       order: -2;
+      -webkit-order: -2;
       margin: 0;
       margin-bottom: 3%;
 
