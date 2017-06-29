@@ -1546,7 +1546,8 @@ body {
 
 .images_page {
   display: flex;
-  display: -webkit-flex; }
+  display: -webkit-flex;
+  display: block; }
   .images_page .right_menu.image {
     background-color: #2E3B4D;
     width: 331px;
