@@ -22,37 +22,6 @@ $(function() {
             $(this).toggleClass('open');
             $("nav").toggleClass('open');
         });
-        $('#nav-icon2').click(function(){
-            $(this).toggleClass('open');
-            $("nav").toggleClass('open');
-        });
-        $('#nav-icon3').click(function(){
-            $(this).toggleClass('open');
-            $("nav").toggleClass('open');
-        });
-        $('#nav-icon4').click(function(){
-            $(this).toggleClass('open');
-            $("nav").toggleClass('open');
-        });
-        $('#nav-icon5').click(function(){
-            $(this).toggleClass('open');
-            $("nav").toggleClass('open');
-        });
-        $('#nav-icon6').click(function(){
-            $(this).toggleClass('open');
-            $("nav").toggleClass('open');
-        });
-        $('#nav-icon7').click(function(){
-            $(this).toggleClass('open');
-            $("nav").toggleClass('open');
-        });
-        $('#nav-icon8').click(function(){
-            $(this).toggleClass('open');
-            $("nav").toggleClass('open');
-        });
-        $('#nav-icon9').click(function(){
-            $(this).toggleClass('open');
-            $("nav").toggleClass('open');
-        });
+
     });
 });
